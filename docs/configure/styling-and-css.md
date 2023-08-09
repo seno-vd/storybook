@@ -39,7 +39,7 @@ If you need webfonts to be available, you may need to add some code to the [`.st
 
 ### Styles aren't being applied with Angular
 
-The latest Angular releases introduced significant changes in configuring and styling projects. If you're working with an Angular version greater than 13 and your styles aren't being applied, you may need to check your `angular.json` ad adjust the `builder` configuration to import your CSS:
+The latest Angular releases introduced significant changes in configuring and styling projects. If you're working with an Angular version greater than 13 and your styles aren't being applied, you may need to check your `angular.json` and adjust the `builder` configuration to import your CSS:
 
 ```json
 {
